@@ -1,72 +1,71 @@
 body {
     color: #52cf67;
-    background-color: #664228;
+    background-image: url("images/background.png");
+    background-color: #01133b;
     font-family: monospace;
     font-size: larger;
-    margin-bottom: 10px;
+    margin: 0px;
 }
 
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
-    border-style: solid;
-    border-color: black;
-    border-radius: 15px;
-    background-color: #826953;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    text-align: center;
-    display:table;
-    margin:0 auto;
+
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
-    border-style: solid;
-    border-color: black;
-    border-radius: 15px;
-    background-color: #826953;
-    margin-bottom: 10px;
-    padding: 5px;
-    text-align: center;
-    display:table;
-    margin:0 auto;
 }
 
 p {
-    color: #52cf67;
+    color: #004aee;
     font-family: monospace;
     font-size: larger;
-    border-style: solid;
-    border-color: black;
-    border-radius: 15px;
-    background-color: #826953;
-    margin-bottom: 10px;
-    padding: 5px;
-    text-align: center;
-    display:table;
-    margin:0 auto;
 }
+
 img {
-display: block;
-margin-left: auto;
-margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 nav {
     color: #52cf67;
     font-family: monospace;
     font-size: larger;
-    border-style: solid;
-    border-color: black;
-    border-radius: 15px;
-    background-color: #826953;
-    margin-bottom: 10px;
-    padding: 5px;
-    text-align: center;
-    display:table;
-    margin:0 auto;
+    border: 1px solid black;
+    border-radius: 0.3vh;
+    background-color: rgb(36, 34, 148);
+    padding: 1vh;
+    margin: 1vh;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #4f5000b7;
+    margin-top: 4vh;
+    padding: 4vh;
+    padding-top: 0;
+    border-radius: 0.5vh;
+}
